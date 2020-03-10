@@ -1,0 +1,62 @@
+.maincontainer{
+  margin: 0px;
+  padding-left:7vw;
+  padding-right:7vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 86vw;
+  height: 100vh;
+}
+body{
+  background-color: black;
+  font-size: 9vmax;
+  width: 100vw;
+  height: 100vh;
+  font-family: cooper-black-std;
+  color: black;
+  -webkit-text-stroke-width: .28vmax;
+  -webkit-text-stroke-color: red;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: -13vh;
+  margin-top: -20vh;
+
+}
+
+a:link, a:visited {
+  background-color: grey;
+  color: white;
+  padding: 1.4vmax;
+  width: fit-content;
+  text-align: center;
+  font-family: arial;
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: red;
+  font-size: .38em;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+.dontclick{
+display: flex;
+flex-direction: column;
+margin-top: -3vh;
+width: fit-content;
+align-self: center;
+}
+.click{
+  display: flex;
+  flex-direction: column;
+margin-top: 1vmin;
+margin-bottom: 10vmin;
+justify-content: center;
+width: fit-content;
+align-self: center;
+}

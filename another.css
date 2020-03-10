@@ -1,0 +1,40 @@
+.maincontainer{
+  margin: 0px;
+  padding-left:7vw;
+  padding-right:7vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 86vw;
+  height: 100vh;
+}
+body{
+  background-image: url("another.jpg");
+  background-repeat: repeat;
+  background-size: 49vmin;
+  font-size: 9vmax;
+  width: 100vw;
+  height: 100vh;
+  font-family: cooper-black-std;
+  color: black;
+  -webkit-text-stroke-width: .28vmax;
+  -webkit-text-stroke-color: red;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: -13vh;
+  margin-top: -20vh;
+
+}
+a{
+text-decoration: none;
+font-size: 10vmax;
+font-family: cooper-black-std;
+color: black;
+background-color: black;
+-webkit-text-stroke-width: .28vmax;
+-webkit-text-stroke-color: red;
+}
